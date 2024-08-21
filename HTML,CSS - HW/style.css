@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-left{
+    width: 22%;
+    padding: 40px;
+    text-align: center;
+    background-color: #f3f4f8;
+    height: 896px;
+}
+.avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.left-title{
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+li{
+    list-style-type: none;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.nav{
+    padding: 30px 20px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+.main-right{
+    width: 78%;
+    background-image: url(https://thumbs.dreamstime.com/b/portrait-cheerful-boy-pointing-to-right-isolated-over-white-background-year-old-kid-pointing-something-child-points-178416996.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    padding-top: 300px;
+}
+.main{
+    display: flex;
+}
+.right-title{
+    width: 10%;
+    padding-bottom: 20px;
+}
+.text-content{
+    width: 250px;
+}
+.button{
+    border:1px solid black;
+    width: 120px;
+    padding: 5px 10px;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+.link {
+    color:blue;
+    border: none !important;
+}
